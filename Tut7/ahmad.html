@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms_codewithharry</title>
+</head>
+
+<body>
+    <h1>Forms Tutorial</h1>
+    <form action="backened.php">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="myName" id="name" placeholder="Enter your user name" autofocus>
+            Password <input type="password" required>
+
+        </div>
+        <br>
+        <div>
+            <label for="rollno">RollNo</label>
+            <input type="number" name="myNumber" id="rollno">
+        </div>
+        <br>
+        <div>
+            <label for="date">Date</label>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="eligible">Eligibility</label>
+            <input type="checkbox" name="myEligibility " id="eligible">
+        </div>
+        <br>
+        <div>
+            Gender <input type="radio" name="myGender" id="male">
+            <label for="male">Male:</label>
+            <input type="radio" name="myGender" id="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+        <div>
+            Write about yourself<br> <textarea name="myText" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <!-- <select name="car"> -->
+                <option value="red">Red</option>
+                <option value="black" selected>Black</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Reset Now">
+        </div>
+        Pattern <input type="text" pattern="[a-zA-Z0-9]+">
+
+    </form>
+</body>
+
+</html>
