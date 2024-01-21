@@ -1,3 +1,0 @@
-    box-sizing: border-box;
-    it means total height height equals to by adding content padding and border.
-    without this statement means the height only equals to content
